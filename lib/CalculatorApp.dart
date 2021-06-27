@@ -73,8 +73,6 @@ class _CalCulatorAppState extends State<CalCulatorApp> {
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
                 color: Color(0xffd7eb7a),
-                image: DecorationImage(
-                    image: AssetImage('Images/wp.JPG'), fit: BoxFit.cover),
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.end,
